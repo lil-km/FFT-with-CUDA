@@ -242,7 +242,8 @@ void bitReverse2natural(float* a, unsigned int size, unsigned int n) {
 	}
 }
 
-// function to print the data for cuFFT function
+// function to initialize the data for cuFFT function
+// same data as my FFT to compare the result
 void cumyCos(cufftComplex* a, int size) {
 	int Fs = 1000;
 	int f = 60;
